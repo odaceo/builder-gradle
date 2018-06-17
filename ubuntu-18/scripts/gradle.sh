@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This install script is intended to install Gradle.
+#
+# Environment variables:
+# - GRADLE_VERSION: the version to install
+
 # Downloading Gradle
 wget --no-verbose --output-document=gradle.zip "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip"
 
