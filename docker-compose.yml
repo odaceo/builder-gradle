@@ -2,11 +2,11 @@ version: '3'
 
 services:
 
-  4.10-java8-ubuntu18:
+  6.0-java8-ubuntu18:
     build:
       context: ./ubuntu-18
       dockerfile: ../Dockerfile
       args:
         JAVA_VERSION: 8-ubuntu18
-        GRADLE_VERSION: '4.10'
-    image: odaceo/gradle:4.10-java8-ubuntu18
+        GRADLE_VERSION: '6.0'
+    image: odaceo/gradle:6.0-java8-ubuntu18
